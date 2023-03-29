@@ -1,0 +1,176 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.home {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main { 
+    align-items: center;
+}
+
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+    background-color: rgb(177, 177, 177);
+}
+
+.sidebar2 {
+    width: 125px;
+    height: 790px;
+    background-color: rgb(177, 177, 177);
+}
+
+.footer{    
+    display: flex;
+    
+    background-color: rgb(161, 161, 161);
+    justify-content: center;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+.mainname {
+    font-size:x-large
+}
+
+.container2 {
+    border: 5px;
+    border-style: solid;
+    border-width: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-evenly;
+}
+
+.nom {
+    text-align: center;
+}
+
+.image {
+    text-align: center;
+    border-style: solid;
+    border-color: black;
+    border-width: auto;
+}
+
+.container3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-content: space-between;
+}
+
+.prix1{
+    text-align: center;
+    flex-basis: 45%;
+    border-style: solid;
+    border-color: black;
+}
+
+.Europe {
+    background-color: rgb(126, 126, 126);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top: 20px;
+}
+.mainmenubtn:hover {
+    background-color: rgb(211, 211, 211);
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(214, 214, 214);
+    min-width: 120px;
+}
+.dropdown-child a {
+    color: rgb(71, 71, 71);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.Asie {
+    background-color: rgb(126, 126, 126);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20%;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(218, 218, 218);
+    min-width: auto;
+    width: auto;
+}
+.dropdown-child a {
+    color: rgb(71, 71, 71);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
+
+.Afrique {
+    background-color: rgb(126, 126, 126);
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:20px;
+    margin-top:20px;
+}
+.mainmenubtn:hover {
+    background-color: blue;
+    }
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+.dropdown-child {
+    display: none;
+    background-color: rgb(214, 214, 214);
+    min-width: 120px;
+}
+.dropdown-child a {
+    color: rgb(71, 71, 71);
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-child {
+    display: block;
+}
