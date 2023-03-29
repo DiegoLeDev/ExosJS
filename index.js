@@ -9,12 +9,12 @@ app.set('view engine', 'ejs')
 
 app.get('/', function(httpRequest,httpResponse){
     console.log('objet request: ', httpRequest);
-    httpresponse.render('pages/index')
+    httpResponse.render('pages/index')
 });
 
 app.get('/toto', function(httpRequest,httpResponse){
     console.log('objet request: ', httpRequest);
-    httpresponse.send('route toto')
+    httpResponse.send('route toto')
 });
 
 app.get('/about', (req,res) => {
