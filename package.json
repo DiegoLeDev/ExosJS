@@ -2,20 +2,20 @@
     "name": "dossier-vide",
     "version": "1.0.0",
     "description": "",
-    "type" : "module",
+    "type": "module",
     "main": "index.js",
     "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1",
-      "dev": "nodemon index.js"
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "nodemon index.js"
     },
     "author": "",
     "license": "ISC",
     "dependencies": {
-      "body-parser": "^1.20.2",
-      "ejs": "^3.1.9",
-      "express": "^4.18.2"
+        "body-parser": "^1.20.2",
+        "ejs": "^3.1.9",
+        "express": "^4.18.2"
     },
     "devDependencies": {
-      "nodemon": "^2.0.22"
+        "nodemon": "^2.0.22"
     }
-  }
+}
