@@ -1,0 +1,12 @@
+Oxyg'Haine est un site de vente en ligne développé en utilisant les technologies suivantes :
+
+HTML, CSS et JavaScript pour la partie front-end
+Node.js avec Express pour la partie back-end
+PHPMyAdmin pour la base de données
+
+Clonez le repository sur votre machine : git clone https://github.com/your_username/your_project.git.
+Installez les dépendances en exécutant npm install dans le terminal.
+Assurez-vous que Wamp est installé et en cours d'exécution sur votre machine.
+
+Affichage des produits avec leur nom, description, prix et image.
+Gestion des produits et des stocks via la base de données PHPMyAdmin
